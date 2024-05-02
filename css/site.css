@@ -10,7 +10,7 @@
 body {
     margin: 0;
     height: 170vh;
-    background: gainsboro url("img/bg.jpg") no-repeat;
+    background: gainsboro url("https://aleksandr-flip.github.io/nature-electronics/img/bg.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
