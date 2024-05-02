@@ -787,7 +787,7 @@ input[type=number] {
 
 @font-face {
     font-family: "a_FuturaRound Bold";
-    src: url("/fonts/a_futuraround_bold.ttf") format("truetype");
+    src: url("fonts/a_futuraround_bold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 } 
