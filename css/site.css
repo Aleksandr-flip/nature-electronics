@@ -1,0 +1,836 @@
+﻿ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+ }
+
+body {
+    margin: 0;
+    height: 170vh;
+    background: url(/img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundIndex {
+    height: 200vh;
+}
+
+.backgroundPatents {
+    height: 200vh;
+}
+
+.backgroundDevices {
+    height: 180vh;
+}
+
+.bodyCalc {
+    height: 190vh;
+}
+
+.devicessize {
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 10%;
+    position: absolute;
+}
+
+.pdevices {
+    margin-bottom: 80px;
+}
+
+.pMenuCalc {
+    margin-bottom: 80px;
+}
+
+.calcMenu {
+    margin-top: 100px;
+    margin-left: 20%;
+    position: absolute;
+}
+
+.devicesnorm {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "a_FuturaRound Bold";
+}
+
+.devicesnorm:hover {
+    color: violet;
+    }
+
+.frame {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 100px;
+    border: 10px antiquewhite solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: gray;
+    box-shadow: 0 5px 10px #000;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-family: "a_FuturaRound Bold";
+    font-size: 20px;
+    text-indent: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.st {
+    margin-top: 40px;
+}
+
+.st2 {
+    font-family: "a_FuturaRound Bold";
+    margin-top: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.changeColor {
+    font-family: "a_FuturaRound Bold";
+    color: darkslateblue;
+}
+
+
+.changeColor:hover {
+    color: violet;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+    height: 70px;
+}
+
+.imgHdd {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    border: 10px antiquewhite solid;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.size2 {
+    width: 30%;
+    height: 30%;
+}
+
+.size3 {
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+
+.hdd1 {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+}
+
+.relay {
+    margin-top: 30px;
+    position: absolute;
+}
+
+.receiver {
+    margin-top: 300px;
+    position: absolute;
+}
+
+.multifeeder {
+    margin-top: 570px;
+    position: absolute;
+}
+
+.robot {
+    margin-top: 840px;
+    position: absolute;
+}
+
+.relaytext {
+    margin-top: 90px;
+    position: absolute;
+}
+
+.receivertext {
+    margin-top: 350px;
+    position: absolute;
+}
+
+.multifeedertext {
+    margin-top: 630px;
+    position: absolute;
+}
+
+.robottext {
+    margin-top: 900px;
+    position: absolute;
+}
+
+.patentstext {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "a_FuturaRound Bold";
+}
+
+.patentstext:hover {
+    color: violet;
+}
+
+
+.devicesCenter {
+    position: absolute;
+    color: #4cff00;
+    font-size: 1cm;
+    padding-top: 75px;
+    padding-left: 45px;
+    font-family: "a_FuturaRound Bold";
+}
+
+.patentsCenter {
+    position: absolute;
+    color: orangered;
+    font-size: 1cm;
+    padding-top: 75px;
+    padding-left: 70px;
+    font-family: "a_FuturaRound Bold";
+}
+
+.channelCenter {
+    position: absolute;
+    color: darkorange;
+    font-size: 1cm;
+    padding-top: 75px;
+    padding-left: 93px;
+    font-family: "a_FuturaRound Bold";
+}
+
+.calculatorsCenter {
+    position: absolute;
+    color: blue;
+    font-size: 1cm;
+    padding-top: 75px;
+    padding-left: 17px;
+    font-family: "a_FuturaRound Bold";
+}
+
+.effect {
+    border-radius: 30px;
+    box-shadow: 0 5px 10px #000;
+}
+
+.devices:hover {
+    transform:scale(1.1);
+}
+
+.devices {
+    position: absolute;
+}
+
+.patents:hover {
+    transform: scale(1.1);
+}
+
+.patents {
+    position: absolute;
+}
+
+.channel:hover {
+    transform: scale(1.1);
+}
+
+.channel {
+    position: absolute;
+}
+
+.calculators:hover {
+    transform: scale(1.1);
+}
+
+.calculators {
+     position: absolute;
+}
+
+.h2patents {
+    top: 1550px;
+}
+
+.h2index {
+    top: 1540px;
+}
+
+h2 {
+    text-align: center;
+    top: 1570px;
+    left: 10%;
+    width: 80%;
+    position: absolute;
+    color: #4cff00;
+    font-size: 20px;
+}
+
+.h2MenuCalc {
+    top: 1370px;
+}
+
+.h2hdd {
+    width: 100%;
+    position: absolute;
+    margin-top: -1260px;
+    left: 0%;
+}
+
+.h2Contacts {
+    top: 1370px;
+}
+
+.h2Devices {
+    top: 1430px;
+}
+
+h1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 120px;
+    color: white;
+    font-size: 25px;
+    font-family: "a_FuturaRound Bold";
+}
+
+header {
+    border-radius: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9%;
+    box-shadow: 0 5px 10px #000;
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: darkblue;
+    transition: .5s;
+    padding: 15px;
+}
+
+header .logo:hover {
+    transform: scale(1.2);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+    header nav ul li a {
+        border-radius: 30px;
+        padding: 15px;
+        color: darkblue;
+        font-size: 16px;
+        display: block;
+    }
+
+header nav ul li a:hover {
+    background: #4cff00;
+    color: #fff;
+}
+
+
+nav ul li ul {
+    position: absolute;
+    right: 0;
+    width: 250px;
+    background: #fff;
+    display: none;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+footer {
+    position: absolute;
+    height: 195px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgb(128 128 128);
+    padding: 0 9%;
+    color: #fff;
+    padding-top: 80px;
+    margin-bottom: 0;
+}
+
+.fpa {
+    margin-top: -40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.fpa a {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.fpa a:hover {
+    color: #4cff00;
+}
+
+.year {
+    margin-top: 10px;
+}
+
+hr {
+    border-color: #ffd800;
+    border-width: 2px;
+    margin-left: -2px;
+}
+
+.contactsFooter {
+    top: 1670px;
+}
+
+.calMenuFooter {
+    top: 1670px;
+}
+
+.footerIndex {
+    top: 1830px;
+}
+
+.footerHdd {
+    margin-top: 610px;
+}
+
+.footerChannel {
+    margin-top: 510px;
+}
+
+.footerPatents {
+    top: 1840px;
+}
+
+.footerDevices {
+    top: 1730px;
+}
+
+figure {
+    width: 300px;
+    height: 200px;
+    color: violet;
+    position: absolute;
+}
+
+    figure::before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        border-top: solid 20px;
+        border-bottom: solid 20px;
+        transition: 0.2s;
+        transform: scaleX(0);
+    }   
+ figure:hover:before {
+     transform: scale(1);
+ }
+
+ figure:after {
+        content: '';
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        border-left: solid 20px;
+        border-right: solid 20px;
+        transition: 0.2s;
+        transform: scaleY(0);
+ }
+
+  figure:hover::before,
+  figure:hover:after {
+        transform: scale(1);
+        border-style: outset;
+        border-radius: 30px;
+    }
+
+.buttonDevice {
+    position: absolute;
+    left: 140px;
+    margin-top: 30px;
+}
+
+.buttonDevice:hover {
+    transform:scale(1.1);
+}
+
+.buttonCenter {
+    background-color: brown;
+    border-radius: 40px;
+    border: 7px #000 double;
+    color: aqua;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 34px;
+    width: 200px;
+    height: 70px;
+    box-shadow: 0 5px 10px #000;
+    font-family: "a_FuturaRound Bold";
+}
+
+.menu2Link {
+    color: #4cff00;
+}
+
+.channelBlock {
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 600;
+    border: 10px #4cff00 groove;
+    box-shadow: 0 5px 10px #000;
+    color: orangered;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.channelImg {
+    width: 100%;
+    height: 100%;
+}
+
+.buttonChannel {
+    margin-top: 5px;
+    border-radius: 30px;
+    border: 10px aqua groove;
+    height: 70px;
+    width: 200px;
+    padding-top: 10px;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    right: 15%;
+    position: absolute;
+    background-color: aqua;
+    font-family: "a_FuturaRound Bold";
+}
+
+.buttonChannel:hover {
+    transform: scale(1.1);
+}
+
+.buttonChannelR {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.paragraph2 {
+    padding: 10px;
+    text-indent: 1%;
+    font-family: "a_FuturaRound Bold";
+}
+
+.channelBlock2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: white;
+    background-color: antiquewhite;
+    border: 10px #ffd800 groove;
+    box-shadow: 0 5px 10px #000;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.thumb-wrap {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 10px #4cff00 groove;
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+}
+
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
+}
+
+.backgroundColor {
+    background-color: gainsboro;
+}
+
+.imgChan {
+    border-radius: 15px;
+    border: 10px #4cff00 groove;
+    width: 47%;
+    height: auto;
+    margin: 1%;
+}
+
+.h2channel {
+    background: aqua;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -1360px;
+    left: 0%;
+}
+
+.h2channelColor {
+    color: white;
+    box-shadow: 0 5px 10px #000;
+    border-radius: 15px;
+    background-color: #ffd800;
+    padding: 10px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 18px;               /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+  background: white;        /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4cff00;    /* цвет бегунка */
+  border-radius: 20px;       /* округлось бегунка */
+  border: 3px solid #4cff00;  /* отступ вокруг бегунка */
+}
+
+.calculatorRLC {
+    margin: 50px auto;
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: #4cff00;
+    color: white;
+    font-family: Arial;
+    padding: 18px;
+    box-shadow: 0 5px 10px #000;
+}
+
+.capacitor {
+    background: none;
+}
+
+.inductance {
+    background: brown;
+}
+
+.calc-screen {
+    height: 120px;
+    padding: 2px;
+    padding-left: 10px;
+    display: grid;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+    background: aqua;
+    color: blue;
+}
+
+.calc-screen p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#inp1 {
+    margin-top: 3px;
+    height: 40px;
+    padding: 5px;
+    display: grid;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    background: aqua;
+    font-size: 30px;
+    width: 313px;
+}
+
+#inp2 {
+    margin-top: 3px;
+    height: 40px;
+    padding: 5px;
+    display: grid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: aqua;
+    font-size: 30px;
+    width: 313px;
+}
+
+input {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas:
+        "start"
+        "reset";
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    background: antiquewhite;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+}
+
+.btn.start {
+    grid-area: start;
+    width: 100%;
+    border-radius: 34px;
+}
+
+.btn.reset {
+    grid-area: reset;
+    width: 100%;
+    border-radius: 34px;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.bg1 {
+    background: green;
+ }
+
+.btn.bg2 {
+    background: gray;
+}
+
+.calc-text {
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ffd800;
+    font-size: 1.3rem;
+    text-indent: 20px;
+    font-weight: 600;
+    font-family: "a_FuturaRound Bold";
+}
+
+
+@font-face {
+    font-family: "a_FuturaRound Bold";
+    src: url("/fonts/a_futuraround_bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+} 
+
+.ufo {
+    width: 12%;
+    margin-top: 5%;
+    margin-left: 17%;
+    position: absolute;
+}
+
+.ufo:hover {
+    transform: scale(5);
+}
+
+.myMail {
+    font-family: "a_FuturaRound Bold";
+    font-size: 1.5rem;
+    color: brown;
+    text-align: center;
+    margin-top: -30px;
+
+}
+
+#current_date_time_block2 {
+    color: white;
+    font-size: 1.7rem;
+    font-family: "a_FuturaRound Bold";
+    border: 5px solid #4cff00;
+    border-radius: 40px;
+    width: 303px;
+    padding: 11px;
+    margin: 50vh auto;
+}
+
+p::selection {
+    background: #4cff00;
+}
+
+h1::selection {
+    background: #4cff00;
+}
+
+h2::selection {
+    background: red;
+}
