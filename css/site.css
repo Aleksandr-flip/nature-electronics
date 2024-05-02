@@ -7,6 +7,14 @@
     text-decoration: none;
  }
 
+body {
+    margin: 0;
+    height: 170vh;
+    background: url("img/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    
 
 
 .backgroundIndex {
