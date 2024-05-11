@@ -552,7 +552,7 @@
 
 @media screen and (max-width: 1150px) and (min-width: 710px) {
     .bodyCalc {
-        height: 720vh;
+        height: 240vh;
     }
 
     .h2Calc {
