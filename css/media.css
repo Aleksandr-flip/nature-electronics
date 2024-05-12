@@ -591,8 +591,12 @@
 
 @media screen and (max-width: 2000px) and (min-width: 500px) {
 
-    footer {
+    .footer {
         padding-left: 45px;
+    }
+
+    .paragraph2 {
+        padding-left: 10px;
     }
 }
 
