@@ -234,7 +234,7 @@
     }
 
     .backgroundIndex {
-        height: 295vh;
+        height: 310vh;
     }
 
     @media screen and (max-height: 530px) and (min-height: 0) {
