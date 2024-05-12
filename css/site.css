@@ -824,7 +824,7 @@ input[type=number] {
     border-radius: 40px;
     width: 303px;
     padding: 11px;
-    margin: 50vh auto;
+    margin: 500vh auto;
 }
 
 p::selection {
