@@ -566,7 +566,7 @@
 
 @media screen and (max-width: 710px) and (min-width: 0px) {
     .bodyCalc {
-        height: 270vh;
+        height: 290vh;
     }
 
     @media screen and (max-height: 530px) and (min-height: 0) {
