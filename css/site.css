@@ -558,8 +558,9 @@ figure {
 }
 
 .paragraph2 {
-    padding: 10px;
-    text-indent: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 2%;
     font-family: "a_FuturaRound Bold";
 }
 
