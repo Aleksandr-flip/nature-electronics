@@ -286,6 +286,10 @@
         height: 220vh;
     }
 
+    .backgroundPatents {
+            height: 270vh;
+        }
+
     @media screen and (max-width: 530px) and (min-width: 0) {
         
         .backgroundPatents {
