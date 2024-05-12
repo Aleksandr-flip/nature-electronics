@@ -290,14 +290,8 @@
             height: 270vh;
         }
 
-    @media screen and (max-width: 530px) and (min-width: 0) {
+    @media screen and (max-height: 530px) and (min-height: 0) {
         
-        .backgroundPatents {
-            height: 260vh;
-        }
-    }
-
-  
     .h2Devices {
         top: 1670px;
     }
