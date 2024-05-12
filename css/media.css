@@ -594,10 +594,6 @@
     .footer {
         padding-left: 45px;
     }
-    .paragraph2 {
-        padding-left: 6%;
-        padding-right: 6%;
-    }
 }
 
 @media screen and (max-width: 500px) and (min-width: 0) {
